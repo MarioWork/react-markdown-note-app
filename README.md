@@ -1,4 +1,4 @@
-# React Meme Generator
+# React Markdown Note App
 This project consists of a React Markdown Note App that lets the user takes notes and use markdown on those notes.
 
 ## Technologies
