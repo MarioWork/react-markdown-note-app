@@ -8,11 +8,6 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 const Sidebar = (props, deleteNote) => {
 
-    function handleDeleteClick(e) {
-        e.stopPropagation();
-        deleteNote();
-    }
-
     const noteElements = props.notes.map((note) => (
         <div key={note.id} >
             <div
