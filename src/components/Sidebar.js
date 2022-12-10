@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 
-const Sidebar = (props, deleteNote) => {
+const Sidebar = (props) => {
 
     const noteElements = props.notes.map((note) => (
         <div key={note.id} >
