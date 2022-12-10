@@ -16,6 +16,9 @@
 
 pkg/
 
+###build ###
+/build/
+
 ### Linux ###
 *~
 
